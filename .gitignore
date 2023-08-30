@@ -1,0 +1,10 @@
+*
+
+!.editorconfig
+!.gitignore
+!.prettierrc.js
+!.vscode
+!.vscode/*
+!index.js
+!package.json
+!README.md
