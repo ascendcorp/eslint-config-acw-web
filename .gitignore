@@ -3,6 +3,7 @@
 !.editorconfig
 !.gitignore
 !.prettierrc.js
+!.versionrc
 !.vscode
 !.vscode/*
 !CHANGELOG.md
