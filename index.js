@@ -38,7 +38,14 @@ module.exports = {
 		"import/export": "warn",
 		"import/no-anonymous-default-export": "error",
 		"import/no-unused-modules": ["error", { unusedExports: true }],
-		"import/order": ["error", { "groups": ["builtin", "external", "index", "parent", "sibling"], "newlines-between": "always" }],
+		"import/order": [
+			"error",
+			{
+				"groups": ["builtin", "external", "index", "parent", "sibling"],
+				"newlines-between": "always",
+				"alphabetize": { order: "asc", caseInsensitive: true, orderImportKind: "asc" },
+			},
+		],
 		"no-else-return": ["error", { allowElseIf: false }],
 		"no-redeclare": "error",
 		"no-unreachable": "error",
