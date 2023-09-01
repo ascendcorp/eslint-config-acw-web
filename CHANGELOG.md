@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.3...v0.0.4) (2023-09-01)
+
+
+### Features
+
+* add "max-params=3" ([d58912a](https://github.com/ascendcorp/eslint-config-acw-web/commit/d58912a4f02e6fa1b9ea3b856d1401b0e3536e53))
+
+
+### Behind the scenes
+
+* add Makefile ([66a2c3f](https://github.com/ascendcorp/eslint-config-acw-web/commit/66a2c3f82115af8ce0386d2fd741e05fd9be80e6))
+
 ### [0.0.3](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.2...v0.0.3) (2023-08-31)
 
 
