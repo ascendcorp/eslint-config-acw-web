@@ -52,6 +52,7 @@ module.exports = {
 		"no-unreachable": "error",
 		"no-unused-vars": "off", // conflict with @typescript-eslint
 		"no-use-before-define": "off", // conflict with @typescript-eslint
+		"object-shorthand": "error",
 		"prefer-const": "error",
 		"prefer-template": "error",
 		"prettier/prettier": "error",
