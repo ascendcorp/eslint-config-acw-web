@@ -61,5 +61,6 @@ module.exports = {
 		"react/jsx-curly-brace-presence": "error",
 		"react/jsx-key": "error",
 		"react/jsx-pascal-case": "error",
+		"react/self-closing-comp": "error",
 	},
 }
