@@ -61,6 +61,7 @@ module.exports = {
 		"react/jsx-curly-brace-presence": "error",
 		"react/jsx-key": "error",
 		"react/jsx-pascal-case": "error",
+		"react/jsx-sort-props": ["error", { ignoreCase: true, reservedFirst: true }],
 		"react/self-closing-comp": "error",
 	},
 }
