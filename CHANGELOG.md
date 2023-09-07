@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.5...v0.0.6) (2023-09-07)
+
+
+### Features
+
+* add "max-lines" ([3d21210](https://github.com/ascendcorp/eslint-config-acw-web/commit/3d21210cc90d40c754e6f7fa9e85d57c82fdb31a))
+* add "object-shorthand" ([7b01baf](https://github.com/ascendcorp/eslint-config-acw-web/commit/7b01baf22263260f604b798709a0ce8a5d7e5bd4))
+* add "react/jsx-sort-props" ([0b2ff84](https://github.com/ascendcorp/eslint-config-acw-web/commit/0b2ff84db54dac356b48e8fb5ea3c5b01c8eee28))
+* add "react/self-closing-comp" ([f2979bf](https://github.com/ascendcorp/eslint-config-acw-web/commit/f2979bfa4ebdc686887604dd33d84bd92ee38d0c))
+
 ### [0.0.5](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.4...v0.0.5) (2023-09-01)
 
 
