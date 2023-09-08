@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.6...v0.0.7) (2023-09-08)
+
+
+### Features
+
+* update "max-lines" ([06d966e](https://github.com/ascendcorp/eslint-config-acw-web/commit/06d966e6c99e7d1a148c7b0b39d5dbf8054ed974))
+
 ### [0.0.6](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.5...v0.0.6) (2023-09-07)
 
 
