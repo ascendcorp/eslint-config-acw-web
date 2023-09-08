@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.7...v0.0.8) (2023-09-08)
+
+
+### Features
+
+* extends more configs due to removing of "eslint-config-react-app" ([978afd6](https://github.com/ascendcorp/eslint-config-acw-web/commit/978afd64c741d78fbf2419e3e2913a8a8ab954ee))
+
+
+### Behind the scenes
+
+* **TODO:** remove "eslint-config-react-app" ([6e4729f](https://github.com/ascendcorp/eslint-config-acw-web/commit/6e4729f0562002e6dc65eeb505d9a36f1e96688a))
+
 ### [0.0.7](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.6...v0.0.7) (2023-09-08)
 
 
