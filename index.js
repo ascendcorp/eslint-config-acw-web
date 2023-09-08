@@ -46,7 +46,7 @@ module.exports = {
 				"alphabetize": { order: "asc", caseInsensitive: true, orderImportKind: "asc" },
 			},
 		],
-		"max-lines": "error",
+		"max-lines": ["error", { skipBlankLines: true, skipComments: true }],
 		"max-params": ["error", 3], // voted: https://truemoney.atlassian.net/wiki/spaces/ACWMF/pages/2266660887/Code+Conventional#function-max-params-=-3
 		"no-else-return": ["error", { allowElseIf: false }],
 		"no-redeclare": "error",
