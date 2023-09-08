@@ -4,7 +4,7 @@ const project = resolve(process.cwd(), "tsconfig.json")
 
 module.exports = {
 	root: true,
-	extends: ["plugin:import/typescript", "plugin:@typescript-eslint/recommended", "plugin:@typescript-eslint/stylistic-type-checked", "prettier"],
+	extends: ["eslint:recommended", "plugin:react/recommended", "plugin:react/jsx-runtime", "plugin:import/typescript", "plugin:@typescript-eslint/recommended", "plugin:@typescript-eslint/stylistic-type-checked", "prettier"],
 	parser: "@typescript-eslint/parser",
 	parserOptions: { project },
 	settings: {
@@ -58,11 +58,18 @@ module.exports = {
 		"prefer-template": "error",
 		"prettier/prettier": "error",
 		"react-hooks/exhaustive-deps": "error",
+		"react/display-name": "off",
 		"react/jsx-boolean-value": "error",
 		"react/jsx-curly-brace-presence": "error",
 		"react/jsx-key": "error",
 		"react/jsx-pascal-case": "error",
 		"react/jsx-sort-props": ["error", { ignoreCase: true, reservedFirst: true }],
+		"react/prop-types": "off",
 		"react/self-closing-comp": "error",
+	},
+	env: {
+		browser: true,
+		node: true,
+		jest: true,
 	},
 }
