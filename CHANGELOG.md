@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.9](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.8...v0.0.9) (2023-09-11)
+
+
+### Features
+
+* **eslint-plugin-react:** use version=detect ([9de7052](https://github.com/ascendcorp/eslint-config-acw-web/commit/9de7052ac428b445660fc1c9299406d9bf488efa))
+
 ### [0.0.8](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.7...v0.0.8) (2023-09-08)
 
 
