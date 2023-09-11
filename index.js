@@ -10,6 +10,7 @@ module.exports = {
 	settings: {
 		"import/parsers": { "@typescript-eslint/parser": [".js", ".jsx", ".ts", ".tsx"] },
 		"import/resolver": { typescript: { project }, node: true },
+		"react": { version: "detect" },
 	},
 	plugins: ["@typescript-eslint", "import", "react", "react-hooks", "prettier"],
 	rules: {
@@ -67,9 +68,5 @@ module.exports = {
 		"react/prop-types": "off",
 		"react/self-closing-comp": "error",
 	},
-	env: {
-		browser: true,
-		node: true,
-		jest: true,
-	},
+	env: { browser: true, node: true, jest: true },
 }
