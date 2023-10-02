@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.10](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.9...v0.0.10) (2023-10-02)
+
+
+### Features
+
+* add "react-hooks/rules-of-hooks" ([5fbdcde](https://github.com/ascendcorp/eslint-config-acw-web/commit/5fbdcdec04590a08b60d0bce1d8d35e50412055f))
+* add "react/no-unused-prop-types" ([83bc635](https://github.com/ascendcorp/eslint-config-acw-web/commit/83bc635c5ed99fc574e9d502b87df964e1b44dcb))
+
 ### [0.0.9](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.8...v0.0.9) (2023-09-11)
 
 
