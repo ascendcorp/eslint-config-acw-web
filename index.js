@@ -60,6 +60,7 @@ module.exports = {
 		"prettier/prettier": "error",
 		"react-hooks/exhaustive-deps": "error",
 		"react-hooks/rules-of-hooks": "error",
+		"react/destructuring-assignment": ["error", "always", { destructureInSignature: "always" }],
 		"react/display-name": "off",
 		"react/jsx-boolean-value": "error",
 		"react/jsx-curly-brace-presence": "error",
