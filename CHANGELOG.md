@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.11](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.10...v0.0.11) (2023-10-02)
+
+
+### Features
+
+* add "react/destructuring-assignment" ([1474b4e](https://github.com/ascendcorp/eslint-config-acw-web/commit/1474b4e5c3a52d5ac4160ed09318513ee3784395))
+
 ### [0.0.10](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.9...v0.0.10) (2023-10-02)
 
 
