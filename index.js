@@ -4,7 +4,7 @@ const project = resolve(process.cwd(), "tsconfig.json")
 
 module.exports = {
 	root: true,
-	extends: ["eslint:recommended", "plugin:react/recommended", "plugin:react/jsx-runtime", "plugin:import/typescript", "plugin:@typescript-eslint/recommended", "plugin:@typescript-eslint/stylistic-type-checked", "prettier"],
+	extends: ["eslint:recommended", "plugin:react/recommended", "plugin:react/jsx-runtime", "plugin:import/recommended", "plugin:import/typescript", "plugin:@typescript-eslint/recommended", "plugin:@typescript-eslint/stylistic-type-checked", "prettier"],
 	parser: "@typescript-eslint/parser",
 	parserOptions: { project },
 	settings: {
@@ -38,15 +38,9 @@ module.exports = {
 		"eqeqeq": ["error", "always"],
 		"import/export": "warn",
 		"import/no-anonymous-default-export": "error",
+		"import/no-mutable-exports": "error",
 		"import/no-unused-modules": ["error", { unusedExports: true }],
-		"import/order": [
-			"error",
-			{
-				"groups": ["builtin", "external", "index", "parent", "sibling"],
-				"newlines-between": "always",
-				"alphabetize": { order: "asc", caseInsensitive: true, orderImportKind: "asc" },
-			},
-		],
+		"import/order": ["error", { "groups": ["builtin", "external", "index", "parent", "sibling"], "newlines-between": "always", "alphabetize": { order: "asc", caseInsensitive: true, orderImportKind: "asc" } }],
 		"max-lines": ["error", { skipBlankLines: true, skipComments: true }],
 		"max-params": ["error", 3], // voted: https://truemoney.atlassian.net/wiki/spaces/ACWMF/pages/2266660887/Code+Conventional#function-max-params-=-3
 		"no-else-return": ["error", { allowElseIf: false }],
