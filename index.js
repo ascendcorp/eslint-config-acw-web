@@ -35,6 +35,7 @@ module.exports = {
 		"@typescript-eslint/require-await": "error",
 		"@typescript-eslint/unbound-method": "warn",
 		"array-callback-return": "error",
+		"complexity": "error",
 		"eqeqeq": ["error", "always"],
 		"import/export": "warn",
 		"import/no-anonymous-default-export": "error",
