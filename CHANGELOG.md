@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.12](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.11...v0.0.12) (2023-10-10)
+
+
+### Features
+
+* add "complexity" ([81b3d71](https://github.com/ascendcorp/eslint-config-acw-web/commit/81b3d71c70b9136b5e3e9eb2ed775c723e60a860))
+* extends "plugin:import/recommended" ([19ffcbd](https://github.com/ascendcorp/eslint-config-acw-web/commit/19ffcbdd3111ba2f7835fb0dd18ad8970a4c1b51))
+
 ### [0.0.11](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.10...v0.0.11) (2023-10-02)
 
 
