@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.13](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.12...v0.0.13) (2023-11-02)
+
+
+### Features
+
+* add "react/no-multi-comp" ([9913e50](https://github.com/ascendcorp/eslint-config-acw-web/commit/9913e509659f41e881af39e5a9fb6955dee49317))
+* disable "import/no-named-as-default-member" ([ff46400](https://github.com/ascendcorp/eslint-config-acw-web/commit/ff46400d550d910dc5c076b408780a34079478f0))
+
 ### [0.0.12](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.11...v0.0.12) (2023-10-10)
 
 
