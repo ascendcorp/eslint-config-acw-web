@@ -40,6 +40,7 @@ module.exports = {
 		"import/export": "warn",
 		"import/no-anonymous-default-export": "error",
 		"import/no-mutable-exports": "error",
+		"import/no-named-as-default": "off",
 		"import/no-named-as-default-member": "off",
 		"import/no-unused-modules": ["error", { unusedExports: true }],
 		"import/order": ["error", { "groups": ["builtin", "external", "index", "parent", "sibling"], "newlines-between": "always", "alphabetize": { order: "asc", caseInsensitive: true, orderImportKind: "asc" } }],
