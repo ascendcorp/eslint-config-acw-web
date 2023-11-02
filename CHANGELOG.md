@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.14](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.13...v0.0.14) (2023-11-02)
+
+
+### Features
+
+* disable "import/no-named-as-default" ([2cec442](https://github.com/ascendcorp/eslint-config-acw-web/commit/2cec442429729f03b02a26d682d32696bb253a0f))
+
 ### [0.0.13](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.12...v0.0.13) (2023-11-02)
 
 
