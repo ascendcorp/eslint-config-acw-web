@@ -23,6 +23,7 @@ module.exports = {
 		"@typescript-eslint/no-dynamic-delete": "error",
 		"@typescript-eslint/no-floating-promises": "error",
 		"@typescript-eslint/no-misused-promises": ["error", { checksVoidReturn: { attributes: false } }],
+		"@typescript-eslint/no-shadow": "error",
 		"@typescript-eslint/no-unnecessary-boolean-literal-compare": "error",
 		"@typescript-eslint/no-unused-vars": "error",
 		"@typescript-eslint/no-use-before-define": "off",
@@ -48,6 +49,7 @@ module.exports = {
 		"max-params": ["error", 3], // voted: https://truemoney.atlassian.net/wiki/spaces/ACWMF/pages/2266660887/Code+Conventional#function-max-params-=-3
 		"no-else-return": ["error", { allowElseIf: false }],
 		"no-redeclare": "error",
+		"no-shadow": "off", // conflict with @typescript-eslint
 		"no-unreachable": "error",
 		"no-unused-vars": "off", // conflict with @typescript-eslint
 		"no-use-before-define": "off", // conflict with @typescript-eslint
