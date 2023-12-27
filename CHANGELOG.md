@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.15](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.14...v0.0.15) (2023-12-27)
+
+
+### Features
+
+* add "no-shadow" ([46cb945](https://github.com/ascendcorp/eslint-config-acw-web/commit/46cb945052f5f4824019b16fc7d9f6872eefcbd7))
+* extends "plugin:@typescript-eslint/strict-type-checked" ([77ccedd](https://github.com/ascendcorp/eslint-config-acw-web/commit/77ccedd231258abde6e15170917d1aa96279fbba))
+
 ### [0.0.14](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.13...v0.0.14) (2023-11-02)
 
 
