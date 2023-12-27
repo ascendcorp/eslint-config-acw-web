@@ -4,7 +4,7 @@ const project = resolve(process.cwd(), "tsconfig.json")
 
 module.exports = {
 	root: true,
-	extends: ["eslint:recommended", "plugin:react/recommended", "plugin:react/jsx-runtime", "plugin:import/recommended", "plugin:import/typescript", "plugin:@typescript-eslint/recommended", "plugin:@typescript-eslint/stylistic-type-checked", "prettier"],
+	extends: ["eslint:recommended", "plugin:react/recommended", "plugin:react/jsx-runtime", "plugin:import/recommended", "plugin:import/typescript", "plugin:@typescript-eslint/strict-type-checked", "plugin:@typescript-eslint/stylistic-type-checked", "prettier"],
 	parser: "@typescript-eslint/parser",
 	parserOptions: { project },
 	settings: {
@@ -25,6 +25,12 @@ module.exports = {
 		"@typescript-eslint/no-misused-promises": ["error", { checksVoidReturn: { attributes: false } }],
 		"@typescript-eslint/no-shadow": "error",
 		"@typescript-eslint/no-unnecessary-boolean-literal-compare": "error",
+		"@typescript-eslint/no-unsafe-argument": "off",
+		"@typescript-eslint/no-unsafe-assignment": "off",
+		"@typescript-eslint/no-unsafe-call": "off",
+		"@typescript-eslint/no-unsafe-enum-comparison": "off",
+		"@typescript-eslint/no-unsafe-member-access": "off",
+		"@typescript-eslint/no-unsafe-return": "off",
 		"@typescript-eslint/no-unused-vars": "error",
 		"@typescript-eslint/no-use-before-define": "off",
 		"@typescript-eslint/non-nullable-type-assertion-style": "error",
@@ -45,14 +51,24 @@ module.exports = {
 		"import/no-named-as-default-member": "off",
 		"import/no-unused-modules": ["error", { unusedExports: true }],
 		"import/order": ["error", { "groups": ["builtin", "external", "index", "parent", "sibling"], "newlines-between": "always", "alphabetize": { order: "asc", caseInsensitive: true, orderImportKind: "asc" } }],
+		"max-depth": "error",
 		"max-lines": ["error", { skipBlankLines: true, skipComments: true }],
 		"max-params": ["error", 3], // voted: https://truemoney.atlassian.net/wiki/spaces/ACWMF/pages/2266660887/Code+Conventional#function-max-params-=-3
+		"member-access": "off",
 		"no-else-return": ["error", { allowElseIf: false }],
+		"no-nested-ternary": "error",
+		"no-param-reassign": "error",
 		"no-redeclare": "error",
 		"no-shadow": "off", // conflict with @typescript-eslint
+		"no-unneeded-ternary": "error",
 		"no-unreachable": "error",
+		"no-unused-expressions": "error",
 		"no-unused-vars": "off", // conflict with @typescript-eslint
 		"no-use-before-define": "off", // conflict with @typescript-eslint
+		"no-useless-computed-key": "error",
+		"no-useless-concat": "error",
+		"no-useless-rename": "error",
+		"no-var": "error",
 		"object-shorthand": "error",
 		"prefer-const": "error",
 		"prefer-template": "error",
