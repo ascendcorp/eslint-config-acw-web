@@ -20,6 +20,7 @@ module.exports = {
 		"@typescript-eslint/consistent-type-definitions": "error",
 		"@typescript-eslint/consistent-type-imports": "error",
 		"@typescript-eslint/dot-notation": "error",
+		"@typescript-eslint/no-confusing-void-expression": ["error", { ignoreArrowShorthand: true }], // NOTE: already in strict-type-checked but without ignoreArrowShorthand=true
 		"@typescript-eslint/no-dynamic-delete": "error",
 		"@typescript-eslint/no-floating-promises": "error",
 		"@typescript-eslint/no-misused-promises": ["error", { checksVoidReturn: { attributes: false } }],
