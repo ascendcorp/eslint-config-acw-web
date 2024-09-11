@@ -4,7 +4,7 @@ const project = resolve(process.cwd(), "tsconfig.json")
 
 module.exports = {
 	root: true,
-	extends: ["eslint:recommended", "plugin:react/recommended", "plugin:react/jsx-runtime", "plugin:import/recommended", "plugin:import/typescript", "plugin:@typescript-eslint/strict-type-checked", "plugin:@typescript-eslint/stylistic-type-checked", "prettier"],
+	extends: ["eslint:recommended", "plugin:react/recommended", "plugin:react/jsx-runtime", "plugin:import/recommended", "plugin:import/typescript", "plugin:@typescript-eslint/strict-type-checked", "plugin:@typescript-eslint/stylistic-type-checked", "plugin:typescript-sort-keys/recommended", "prettier"],
 	parser: "@typescript-eslint/parser",
 	parserOptions: { project },
 	settings: {
@@ -12,7 +12,7 @@ module.exports = {
 		"import/resolver": { typescript: { project }, node: true },
 		"react": { version: "detect" },
 	},
-	plugins: ["@typescript-eslint", "import", "react", "react-hooks", "prettier"],
+	plugins: ["@typescript-eslint", "import", "react", "react-hooks", "prettier", "typescript-sort-keys"],
 	rules: {
 		"@typescript-eslint/array-type": "error",
 		"@typescript-eslint/await-thenable": "error",
@@ -87,6 +87,8 @@ module.exports = {
 		"react/no-unused-prop-types": "error",
 		"react/prop-types": "off",
 		"react/self-closing-comp": "error",
+		"typescript-sort-keys/interface": "error",
+		"typescript-sort-keys/string-enum": "error",
 	},
 	env: { browser: true, node: true, jest: true },
 }

@@ -29,6 +29,7 @@
 		"eslint-plugin-react": "^7",
 		"eslint-plugin-react-hooks": "^4",
 		"prettier": "^3",
-		"typescript": "^5"
+		"typescript": "^5",
+		"eslint-plugin-typescript-sort-keys": "^3"
 	}
 }
