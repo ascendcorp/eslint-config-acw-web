@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.17](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.16...v0.0.17) (2024-09-11)
+
+
+### Features
+
+* add eslint-plugin-typescript-sort-keys ([12c848d](https://github.com/ascendcorp/eslint-config-acw-web/commit/12c848d16686157a126efc37ab7aeebc66cf9bd6))
+
 ### [0.0.16](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.15...v0.0.16) (2024-01-29)
 
 
