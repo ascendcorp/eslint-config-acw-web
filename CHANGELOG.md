@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.22](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.17...v0.0.22) (2024-09-20)
+
+
+### Behind the scenes
+
+* **release:** 0.0.21 ([dfb53c9](https://github.com/ascendcorp/eslint-config-acw-web/commit/dfb53c988c49b3e76ba10d34c909adf51a7c1a11))
+
 ### [0.0.21](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.17...v0.0.21) (2024-09-20)
 
 ### [0.0.17](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.16...v0.0.17) (2024-09-11)
