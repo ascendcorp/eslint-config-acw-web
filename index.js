@@ -4,7 +4,7 @@ const project = resolve(process.cwd(), "tsconfig.json")
 
 module.exports = {
 	root: true,
-	extends: ["eslint:recommended", "plugin:react/recommended", "plugin:react/jsx-runtime", "plugin:import/recommended", "plugin:import/typescript", "plugin:@typescript-eslint/strict-type-checked", "plugin:@typescript-eslint/stylistic-type-checked", "plugin:typescript-sort-keys/recommended", "prettier"],
+	extends: ["eslint:recommended", "plugin:react/recommended", "plugin:react/jsx-runtime", "plugin:import/recommended", "plugin:import/typescript", "plugin:@typescript-eslint/strict-type-checked", "plugin:@typescript-eslint/stylistic-type-checked", "plugin:typescript-sort-keys/recommended", "plugin:jsx-a11y/strict", "prettier"],
 	parser: "@typescript-eslint/parser",
 	parserOptions: { project },
 	settings: {
