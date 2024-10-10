@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.25](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.24...v0.0.25) (2024-10-10)
+
+
+### Features
+
+* turn off "jsx-a11y/no-autofocus" ([1a6c2c3](https://github.com/ascendcorp/eslint-config-acw-web/commit/1a6c2c3d2ca946cb2f405d48896a70c5ead7c130))
+
 ### [0.0.24](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.23...v0.0.24) (2024-10-09)
 
 
