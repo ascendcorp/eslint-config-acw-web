@@ -52,6 +52,7 @@ module.exports = {
 		"import/no-named-as-default-member": "off",
 		"import/no-unused-modules": ["error", { unusedExports: true }],
 		"import/order": ["error", { "groups": ["builtin", "external", "index", "parent", "sibling"], "newlines-between": "always", "alphabetize": { order: "asc", caseInsensitive: true, orderImportKind: "asc" } }],
+		"jsx-a11y/click-events-have-key-events": "off", // This is too much.
 		"jsx-a11y/no-autofocus": "off", // We don't usually use autofocus, but when we do, it's because we really need it.
 		"max-depth": "error",
 		"max-lines": ["error", { skipBlankLines: true, skipComments: true }],
