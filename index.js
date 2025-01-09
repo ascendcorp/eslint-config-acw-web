@@ -21,11 +21,13 @@ module.exports = {
 		"@typescript-eslint/consistent-type-imports": "error",
 		"@typescript-eslint/dot-notation": "error",
 		"@typescript-eslint/no-confusing-void-expression": ["error", { ignoreArrowShorthand: true }], // NOTE: already in strict-type-checked but without ignoreArrowShorthand=true
+		"@typescript-eslint/no-deprecated": "off", // To be enable
 		"@typescript-eslint/no-dynamic-delete": "error",
 		"@typescript-eslint/no-floating-promises": "error",
 		"@typescript-eslint/no-misused-promises": ["error", { checksVoidReturn: { attributes: false } }],
 		"@typescript-eslint/no-shadow": "error",
 		"@typescript-eslint/no-unnecessary-boolean-literal-compare": "error",
+		"@typescript-eslint/no-unnecessary-type-parameters": "off", // To be enable
 		"@typescript-eslint/no-unsafe-argument": "off",
 		"@typescript-eslint/no-unsafe-assignment": "off",
 		"@typescript-eslint/no-unsafe-call": "off",
@@ -40,7 +42,9 @@ module.exports = {
 		"@typescript-eslint/prefer-literal-enum-member": "error",
 		"@typescript-eslint/prefer-nullish-coalescing": "error",
 		"@typescript-eslint/prefer-optional-chain": "error",
+		"@typescript-eslint/prefer-promise-reject-errors": "off", // To be enable
 		"@typescript-eslint/require-await": "error",
+		"@typescript-eslint/restrict-template-expressions": "off", // To be enable
 		"@typescript-eslint/unbound-method": "warn",
 		"array-callback-return": "error",
 		"complexity": "error",

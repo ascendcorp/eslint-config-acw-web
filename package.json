@@ -18,8 +18,8 @@
 	},
 	"homepage": "https://github.com/ascendcorp/eslint-config-acw-web#readme",
 	"peerDependencies": {
-		"@typescript-eslint/eslint-plugin": "^6",
-		"@typescript-eslint/parser": "^6",
+		"@typescript-eslint/eslint-plugin": "^8",
+		"@typescript-eslint/parser": "^8",
 		"eslint": "^8",
 		"eslint-config-prettier": "^9",
 		"eslint-import-resolver-typescript": "^3",
@@ -28,8 +28,8 @@
 		"eslint-plugin-prettier": "^5",
 		"eslint-plugin-react": "^7",
 		"eslint-plugin-react-hooks": "^4",
+		"eslint-plugin-typescript-sort-keys": "^3",
 		"prettier": "^3",
-		"typescript": "^5",
-		"eslint-plugin-typescript-sort-keys": "^3"
+		"typescript": "^5"
 	}
 }
