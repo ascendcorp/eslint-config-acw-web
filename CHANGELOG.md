@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.27](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.26...v0.0.27) (2025-01-09)
+
+
+### Features
+
+* [@typescript-eslint](https://github.com/typescript-eslint) v8 ([5b2c64e](https://github.com/ascendcorp/eslint-config-acw-web/commit/5b2c64e5b9d7684feb775af1d62ee519012a21b0))
+
 ### [0.0.26](https://github.com/ascendcorp/eslint-config-acw-web/compare/v0.0.25...v0.0.26) (2024-10-24)
 
 
