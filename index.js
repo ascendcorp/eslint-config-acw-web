@@ -1,18 +1,43 @@
 const { resolve } = require("node:path")
+const globals = require("globals")
+const { fixupPluginRules } = require("@eslint/compat")
+const prettierPlugin = require("eslint-plugin-prettier")
+const reactHooksPlugin = require("eslint-plugin-react-hooks")
+const reactPlugin = require("eslint-plugin-react")
+const typescriptSortKeys = require("eslint-plugin-typescript-sort-keys")
+const tsParser = require("@typescript-eslint/parser")
 
 const project = resolve(process.cwd(), "tsconfig.json")
 
 module.exports = {
-	root: true,
-	extends: ["eslint:recommended", "plugin:react/recommended", "plugin:react/jsx-runtime", "plugin:import/recommended", "plugin:import/typescript", "plugin:@typescript-eslint/strict-type-checked", "plugin:@typescript-eslint/stylistic-type-checked", "plugin:typescript-sort-keys/recommended", "plugin:jsx-a11y/strict", "prettier"],
-	parser: "@typescript-eslint/parser",
-	parserOptions: { project },
-	settings: {
-		"import/parsers": { "@typescript-eslint/parser": [".js", ".jsx", ".ts", ".tsx"] },
-		"import/resolver": { typescript: { project }, node: true },
-		"react": { version: "detect" },
+	languageOptions: {
+		ecmaVersion: 'latest',
+		sourceType: 'module',
+		parser: tsParser,
+		parserOptions: {
+			ecmaFeatures: {
+				jsx: true,
+			},
+			project,
+		},
+		globals: {
+			...globals.serviceworker,
+			...globals.browser,
+		},
 	},
-	plugins: ["@typescript-eslint", "import", "react", "react-hooks", "prettier", "typescript-sort-keys"],
+	settings: {
+		react: {
+			version: 'detect',
+		},
+			"import/resolver": { typescript: true, node: true },
+			"import/parsers": { "@typescript-eslint/parser": [".js", ".jsx", ".ts", ".tsx"] },
+	},
+	plugins: {
+		"react-hooks": fixupPluginRules(reactHooksPlugin),
+		prettier: prettierPlugin,
+		"typescript-sort-keys": typescriptSortKeys,
+		react: reactPlugin,
+	},
 	rules: {
 		"@typescript-eslint/array-type": "error",
 		"@typescript-eslint/await-thenable": "error",
@@ -96,5 +121,4 @@ module.exports = {
 		"typescript-sort-keys/interface": "error",
 		"typescript-sort-keys/string-enum": "error",
 	},
-	env: { browser: true, node: true, jest: true },
 }

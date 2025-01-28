@@ -20,15 +20,19 @@
 	"peerDependencies": {
 		"@typescript-eslint/eslint-plugin": "^8",
 		"@typescript-eslint/parser": "^8",
-		"eslint": "^8",
+		"@eslint/js": "^9",
+		"@eslint/compat": "^1",
+		"@eslint/eslintrc": "^3",
+		"eslint": "^9",
 		"eslint-config-prettier": "^9",
 		"eslint-import-resolver-typescript": "^3",
 		"eslint-plugin-import": "^2",
 		"eslint-plugin-jsx-a11y": "^6",
 		"eslint-plugin-prettier": "^5",
 		"eslint-plugin-react": "^7",
-		"eslint-plugin-react-hooks": "^4",
+		"eslint-plugin-react-hooks": "^5",
 		"eslint-plugin-typescript-sort-keys": "^3",
+		"globals": "^15",
 		"prettier": "^3",
 		"typescript": "^5"
 	}
